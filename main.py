@@ -8,7 +8,7 @@ class Game(ShowBase):
         self.model.reparentTo(self.render)
 
         self.model.setScale(0.5)
-        self.model.setPos(0, 20, 0)
+        self.model.setPos(0, 20, 21)
         self.camLens.setFov(75)
 
 game = Game()
