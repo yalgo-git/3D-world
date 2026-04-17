@@ -11,7 +11,12 @@ class Game(ShowBase):
         self.model.setPos(0, 20, 21)
         self.camLens.setFov(75)
         self.cam.setPos(0, -20, 10)
-        self.cam.lookAt(0, 0, 0)    
+        self.cam.lookAt(0, 0, 0)
 
 game = Game()
 game.run()
+
+
+
+
+
